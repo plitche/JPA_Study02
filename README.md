@@ -1,0 +1,5 @@
+# JPA_Study02
+
+1. 프로젝트 환경설정 - 프로젝트 생성
+  - Lombok 사용시 
+    : Settings - Build, Execution, Deployment - Compiler - Annotation Processors - Enable annotation processing 체크하기
