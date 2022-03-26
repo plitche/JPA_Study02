@@ -14,3 +14,6 @@
   - 쿼리 파라미터로 남기기
     1) application.yml - logging.level: org.hibernate.type: trace
     2) 외부 라이브러리 : https://github.com/gavlyukovskiy/spring-boot-data-source-decorator
+
+4. 엔티티 클래스 개발1
+  - 주인이 되는 쪽이 @JoinColum, 반대쪽이 mappedBy
