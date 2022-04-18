@@ -23,3 +23,10 @@
   - 모든 연관관계는 지연로딩으로 설정! (즉시로딩 EAGER은 예측이 어렵다. 어떤 SQL이 실행될지 추적하기 어렵다.)
 
 17. @Transactional(readOnly = true) : JPA가 조회하는 성능에서 조금 더 최적화 된다.
+
+25. 
+Ctrl + Alt + v : 값 변수로 저장
+Ctrl + Alt + m : 로직 메소드로 변경
+Ctrl + Alt + P : 고정 값 파라미터로 변경
+    
+
