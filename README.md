@@ -30,3 +30,14 @@
 * Ctrl + Alt + P : 고정 값 파라미터로 변경  
     
 
+# JPA_Study03
+1. API 개발 기본 - 회원 등록 API
+  - API 스펙을 위한 별도의 Data Transfer Object를 만들어야 한다. Entity를 그대로 사용하면 안된다.
+  - 장점
+    1) Entity를 변경해도 api 스펙이 바뀌지 않는다.
+    2) api 스펙자체가 어떤 값이 필요한지 알 수 있음
+
+2. API 개발 기본 - 회원 수정 API
+  - Command와 Query를 분리하면 유지보수성이 증대된다 : 트레픽이 많이 발생하지 않는 api에서
+
+
