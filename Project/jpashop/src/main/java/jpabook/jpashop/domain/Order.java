@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.aspectj.weaver.ast.Or;
+import org.hibernate.annotations.BatchSize;
 import sun.util.resources.LocaleData;
 
 import javax.persistence.*;
@@ -28,6 +29,7 @@ public class Order {
     @JoinColumn(name = "member_id")
     private Member member;
 
+    @BatchSize(size = 1000)
     // orderItems에 data를 넣어두고 order를 저장하면 같이 저장된다. 원래는 order에 세팅해야 할텐데..
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<OrderItem> orderItems = new ArrayList<>();
